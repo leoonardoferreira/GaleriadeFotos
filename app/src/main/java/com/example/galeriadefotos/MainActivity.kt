@@ -83,7 +83,7 @@ fun MolduraImagemDescricao(
                     .fillMaxSize()
                     .padding(15.dp)
                     .clip(RoundedCornerShape(10.dp)),
-                contentScale = ContentScale.Crop
+                contentScale = ContentScale.Crop,
             )
             Text(
                 text = stringResource(id = idImagemDescricao.idDescricao),
